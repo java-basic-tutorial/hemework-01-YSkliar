@@ -1,5 +1,7 @@
 package com.softserveinc;
 
+import java.util.Scanner;
+
 /*
     Task: Write the program that prints all lines as in the example below:
 
@@ -13,7 +15,12 @@ package com.softserveinc;
  */
 public class Task01 {
     public static void main(String[] args) {
-        // TODO: Write your code here
-
+        System.out.println("Starting to make a coffee\n" +
+                "Grinding coffee beans\n" +
+                "Boiling water\n" +
+                "Mixing boiled water with crushed coffee beans\n" +
+                "Pouring coffee into the cup\n" +
+                "Pouring some milk into the cup\n" +
+                "Coffee is ready!");
     }
 }
